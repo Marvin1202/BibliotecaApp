@@ -12,15 +12,16 @@ namespace BibliotecaApp.Clases
         public int Id {  get; set; }
         public string Titulo { get; set; }
         public string Autor {  get; set; }
-        public bool Dispoible { get; set; }
+        public int Anio { get; set; }
+        public bool Disponible { get; set; }
 
-        public Libro(int id, string titulo, string autor)
+        public Libro(int id, string titulo, string autor, int anio)
         {
             Id = id;
             Titulo = titulo;
             Autor = autor;
-            Dispoible = true; // al crearlo nos aparece como disponible 
-
+            Disponible = true; // al crearlo nos aparece como disponible 
+            Anio = anio;    
         }
 
     }

@@ -1,0 +1,11 @@
+C:\Users\Lic. Samuel\Desktop\BibliotecaApp\BibliotecaApp\bin\Debug\BibliotecaApp.exe.config
+C:\Users\Lic. Samuel\Desktop\BibliotecaApp\BibliotecaApp\bin\Debug\BibliotecaApp.exe
+C:\Users\Lic. Samuel\Desktop\BibliotecaApp\BibliotecaApp\bin\Debug\BibliotecaApp.pdb
+C:\Users\Lic. Samuel\Desktop\BibliotecaApp\BibliotecaApp\obj\Debug\BibliotecaApp.csproj.AssemblyReference.cache
+C:\Users\Lic. Samuel\Desktop\BibliotecaApp\BibliotecaApp\obj\Debug\BibliotecaApp.Form1.resources
+C:\Users\Lic. Samuel\Desktop\BibliotecaApp\BibliotecaApp\obj\Debug\BibliotecaApp.Properties.Resources.resources
+C:\Users\Lic. Samuel\Desktop\BibliotecaApp\BibliotecaApp\obj\Debug\BibliotecaApp.csproj.GenerateResource.cache
+C:\Users\Lic. Samuel\Desktop\BibliotecaApp\BibliotecaApp\obj\Debug\BibliotecaApp.csproj.CoreCompileInputs.cache
+C:\Users\Lic. Samuel\Desktop\BibliotecaApp\BibliotecaApp\obj\Debug\BibliotecaApp.exe
+C:\Users\Lic. Samuel\Desktop\BibliotecaApp\BibliotecaApp\obj\Debug\BibliotecaApp.pdb
+C:\Users\Lic. Samuel\Desktop\BibliotecaApp\BibliotecaApp\obj\Debug\BibliotecaApp.exe.config

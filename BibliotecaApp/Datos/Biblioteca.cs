@@ -17,14 +17,27 @@ namespace BibliotecaApp.Datos
 
         public void AgregarLibro(Libro libro) => Libros.Add(libro);
         public void EliminarLibro(Libro libro) => Libros.Remove(libro);
+        public void ActualizarLibro(int index, Libro libroActualizado)
+        {
+            Libros[index] = libroActualizado;
+        }
+
 
         // Métodos Usuarios
         public void AgregarUsuario(Usuario usuario) => Usuarios.Add(usuario);
         public void EliminarUsuario(Usuario usuario) => Usuarios.Remove(usuario);
+        public void ActualizarUsuario(int index, Usuario usuarioActualizado)
+        {
+            Usuarios[index] = usuarioActualizado;
+        }
 
         // Métodos Préstamos
         public void RegistrarPrestamo(Prestamo prestamo) => Prestamos.Add(prestamo);
-
+        public void DevolverPrestamo(int index)
+        {
+            Prestamos[index].Devuelto = true;
+            Prestamos[index].Libro.Disponible = true;
+        }
 
     }
 }
