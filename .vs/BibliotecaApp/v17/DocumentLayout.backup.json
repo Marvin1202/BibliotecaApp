@@ -1,9 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Lic. Samuel\\Desktop\\BibliotecaApp\\BibliotecaApp\\",
+  "WorkspaceRootPath": "C:\\Users\\Lic. Samuel\\Desktop\\BibliotecaApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DEA4626F-13AE-4AEE-A522-DA652D6EA6C5}|BibliotecaApp\\BibliotecaApp.csproj|c:\\users\\lic. samuel\\desktop\\bibliotecaapp\\bibliotecaapp\\bibliotecaapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DEA4626F-13AE-4AEE-A522-DA652D6EA6C5}|BibliotecaApp\\BibliotecaApp.csproj|c:\\users\\lic. samuel\\desktop\\bibliotecaapp\\bibliotecaapp\\clases\\prestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA4626F-13AE-4AEE-A522-DA652D6EA6C5}|BibliotecaApp\\BibliotecaApp.csproj|solutionrelative:bibliotecaapp\\clases\\prestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA4626F-13AE-4AEE-A522-DA652D6EA6C5}|BibliotecaApp\\BibliotecaApp.csproj|c:\\users\\lic. samuel\\desktop\\bibliotecaapp\\bibliotecaapp\\clases\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA4626F-13AE-4AEE-A522-DA652D6EA6C5}|BibliotecaApp\\BibliotecaApp.csproj|solutionrelative:bibliotecaapp\\clases\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA4626F-13AE-4AEE-A522-DA652D6EA6C5}|BibliotecaApp\\BibliotecaApp.csproj|c:\\users\\lic. samuel\\desktop\\bibliotecaapp\\bibliotecaapp\\clases\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA4626F-13AE-4AEE-A522-DA652D6EA6C5}|BibliotecaApp\\BibliotecaApp.csproj|solutionrelative:bibliotecaapp\\clases\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA4626F-13AE-4AEE-A522-DA652D6EA6C5}|BibliotecaApp\\BibliotecaApp.csproj|c:\\users\\lic. samuel\\desktop\\bibliotecaapp\\bibliotecaapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DEA4626F-13AE-4AEE-A522-DA652D6EA6C5}|BibliotecaApp\\BibliotecaApp.csproj|solutionrelative:bibliotecaapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -19,10 +31,49 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Prestamo.cs",
+              "DocumentMoniker": "C:\\Users\\Lic. Samuel\\Desktop\\BibliotecaApp\\BibliotecaApp\\Clases\\Prestamo.cs",
+              "RelativeDocumentMoniker": "BibliotecaApp\\Clases\\Prestamo.cs",
+              "ToolTip": "C:\\Users\\Lic. Samuel\\Desktop\\BibliotecaApp\\BibliotecaApp\\Clases\\Prestamo.cs",
+              "RelativeToolTip": "BibliotecaApp\\Clases\\Prestamo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T01:22:54.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Lic. Samuel\\Desktop\\BibliotecaApp\\BibliotecaApp\\Clases\\Usuario.cs",
+              "RelativeDocumentMoniker": "BibliotecaApp\\Clases\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Lic. Samuel\\Desktop\\BibliotecaApp\\BibliotecaApp\\Clases\\Usuario.cs",
+              "RelativeToolTip": "BibliotecaApp\\Clases\\Usuario.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T01:14:09.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "C:\\Users\\Lic. Samuel\\Desktop\\BibliotecaApp\\BibliotecaApp\\Clases\\Libro.cs",
+              "RelativeDocumentMoniker": "BibliotecaApp\\Clases\\Libro.cs",
+              "ToolTip": "C:\\Users\\Lic. Samuel\\Desktop\\BibliotecaApp\\BibliotecaApp\\Clases\\Libro.cs",
+              "RelativeToolTip": "BibliotecaApp\\Clases\\Libro.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T01:07:36.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Lic. Samuel\\Desktop\\BibliotecaApp\\BibliotecaApp\\BibliotecaApp\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Lic. Samuel\\Desktop\\BibliotecaApp\\BibliotecaApp\\Form1.cs",
               "RelativeDocumentMoniker": "BibliotecaApp\\Form1.cs",
-              "ToolTip": "C:\\Users\\Lic. Samuel\\Desktop\\BibliotecaApp\\BibliotecaApp\\BibliotecaApp\\Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Lic. Samuel\\Desktop\\BibliotecaApp\\BibliotecaApp\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "BibliotecaApp\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-18T23:22:47.893Z",
