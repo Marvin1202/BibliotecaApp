@@ -1,0 +1,6 @@
+# Archivos binarios y temporales
+bin/
+obj/
+*.user
+*.suo
+*.vs/
