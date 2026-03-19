@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Lic. Samuel\\Desktop\\BibliotecaApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DEA4626F-13AE-4AEE-A522-DA652D6EA6C5}|BibliotecaApp\\BibliotecaApp.csproj|C:\\Users\\Lic. Samuel\\Desktop\\BibliotecaApp\\bibliotecaapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DEA4626F-13AE-4AEE-A522-DA652D6EA6C5}|BibliotecaApp\\BibliotecaApp.csproj|solutionrelative:bibliotecaapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DEA4626F-13AE-4AEE-A522-DA652D6EA6C5}|BibliotecaApp\\BibliotecaApp.csproj|c:\\users\\lic. samuel\\desktop\\bibliotecaapp\\bibliotecaapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DEA4626F-13AE-4AEE-A522-DA652D6EA6C5}|BibliotecaApp\\BibliotecaApp.csproj|C:\\Users\\Lic. Samuel\\Desktop\\BibliotecaApp\\bibliotecaapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DEA4626F-13AE-4AEE-A522-DA652D6EA6C5}|BibliotecaApp\\BibliotecaApp.csproj|solutionrelative:bibliotecaapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DEA4626F-13AE-4AEE-A522-DA652D6EA6C5}|BibliotecaApp\\BibliotecaApp.csproj|c:\\users\\lic. samuel\\desktop\\bibliotecaapp\\bibliotecaapp\\datos\\biblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DEA4626F-13AE-4AEE-A522-DA652D6EA6C5}|BibliotecaApp\\BibliotecaApp.csproj|c:\\users\\lic. samuel\\desktop\\bibliotecaapp\\bibliotecaapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DEA4626F-13AE-4AEE-A522-DA652D6EA6C5}|BibliotecaApp\\BibliotecaApp.csproj|solutionrelative:bibliotecaapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA4626F-13AE-4AEE-A522-DA652D6EA6C5}|BibliotecaApp\\BibliotecaApp.csproj|C:\\Users\\Lic. Samuel\\Desktop\\BibliotecaApp\\bibliotecaapp\\datos\\biblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DEA4626F-13AE-4AEE-A522-DA652D6EA6C5}|BibliotecaApp\\BibliotecaApp.csproj|solutionrelative:bibliotecaapp\\datos\\biblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA4626F-13AE-4AEE-A522-DA652D6EA6C5}|BibliotecaApp\\BibliotecaApp.csproj|C:\\Users\\Lic. Samuel\\Desktop\\BibliotecaApp\\bibliotecaapp\\clases\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA4626F-13AE-4AEE-A522-DA652D6EA6C5}|BibliotecaApp\\BibliotecaApp.csproj|solutionrelative:bibliotecaapp\\clases\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DEA4626F-13AE-4AEE-A522-DA652D6EA6C5}|BibliotecaApp\\BibliotecaApp.csproj|C:\\Users\\Lic. Samuel\\Desktop\\BibliotecaApp\\bibliotecaapp\\clases\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DEA4626F-13AE-4AEE-A522-DA652D6EA6C5}|BibliotecaApp\\BibliotecaApp.csproj|C:\\Users\\Lic. Samuel\\Desktop\\BibliotecaApp\\bibliotecaapp\\clases\\prestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DEA4626F-13AE-4AEE-A522-DA652D6EA6C5}|BibliotecaApp\\BibliotecaApp.csproj|solutionrelative:bibliotecaapp\\clases\\prestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DEA4626F-13AE-4AEE-A522-DA652D6EA6C5}|BibliotecaApp\\BibliotecaApp.csproj|C:\\Users\\Lic. Samuel\\Desktop\\BibliotecaApp\\bibliotecaapp\\clases\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DEA4626F-13AE-4AEE-A522-DA652D6EA6C5}|BibliotecaApp\\BibliotecaApp.csproj|solutionrelative:bibliotecaapp\\clases\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,24 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Lic. Samuel\\Desktop\\BibliotecaApp\\BibliotecaApp\\Form1.cs",
               "RelativeDocumentMoniker": "BibliotecaApp\\Form1.cs",
               "ToolTip": "C:\\Users\\Lic. Samuel\\Desktop\\BibliotecaApp\\BibliotecaApp\\Form1.cs",
               "RelativeToolTip": "BibliotecaApp\\Form1.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAawFcAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAOAAAAAAAAAAAAAswPAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-19T03:17:42.94Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Lic. Samuel\\Desktop\\BibliotecaApp\\BibliotecaApp\\Form1.cs",
               "RelativeDocumentMoniker": "BibliotecaApp\\Form1.cs",
@@ -76,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Prestamo.cs",
               "DocumentMoniker": "C:\\Users\\Lic. Samuel\\Desktop\\BibliotecaApp\\BibliotecaApp\\Clases\\Prestamo.cs",
               "RelativeDocumentMoniker": "BibliotecaApp\\Clases\\Prestamo.cs",
@@ -84,25 +84,24 @@
               "RelativeToolTip": "BibliotecaApp\\Clases\\Prestamo.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAA1wBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T01:22:54.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-19T01:22:54.518Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Libro.cs",
               "DocumentMoniker": "C:\\Users\\Lic. Samuel\\Desktop\\BibliotecaApp\\BibliotecaApp\\Clases\\Libro.cs",
               "RelativeDocumentMoniker": "BibliotecaApp\\Clases\\Libro.cs",
               "ToolTip": "C:\\Users\\Lic. Samuel\\Desktop\\BibliotecaApp\\BibliotecaApp\\Clases\\Libro.cs",
               "RelativeToolTip": "BibliotecaApp\\Clases\\Libro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-19T01:07:36.38Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\Lic. Samuel\\Desktop\\BibliotecaApp\\BibliotecaApp\\Clases\\Usuario.cs",
               "RelativeDocumentMoniker": "BibliotecaApp\\Clases\\Usuario.cs",
@@ -110,8 +109,7 @@
               "RelativeToolTip": "BibliotecaApp\\Clases\\Usuario.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwBIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T01:14:09.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-19T01:14:09.098Z"
             }
           ]
         }

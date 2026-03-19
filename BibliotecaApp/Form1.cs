@@ -28,6 +28,7 @@ namespace BibliotecaApp
         {
             InitializeComponent();   // Para inciar todo lo de la interfaz
             InicializarGrids();      // Para iniciar lo de los dgv
+            InicializarGrafico();
         }
 
         private void InicializarGrids()
@@ -38,11 +39,15 @@ namespace BibliotecaApp
             dgvLibros.Columns.Add("Autor", "Autor");
             dgvLibros.Columns.Add("Anio", "Año");
             dgvLibros.Columns.Add("Disponible", "Disponible");
+            
+            dgvLibros.AllowUserToAddRows = false;
 
             // Configuración de columnas para dgvUsuarios
             dgvUsuarios.Columns.Add("Id", "ID");
             dgvUsuarios.Columns.Add("Nombre", "Nombre");
             dgvUsuarios.Columns.Add("Correo", "Correo");
+
+            dgvUsuarios.AllowUserToAddRows = false; 
 
             // Configuración de columnas para dgvPrestamos
             dgvPrestamos.Columns.Add("Id", "ID");
@@ -50,6 +55,17 @@ namespace BibliotecaApp
             dgvPrestamos.Columns.Add("Usuario", "Usuario");
             dgvPrestamos.Columns.Add("Fecha", "Fecha");
             dgvPrestamos.Columns.Add("Devuelto", "Devuelto");
+
+            dgvPrestamos.AllowUserToAddRows = false;
+        }
+
+        private void InicializarGrafico()
+        {
+            chartLibrosPrestados.Series.Clear(); // Limpiamos cualquier serie existente
+            chartLibrosPrestados.ChartAreas.Clear(); // Limpiamos áreas
+            chartLibrosPrestados.ChartAreas.Add("Area1"); // Creamos un área
+            chartLibrosPrestados.Series.Add("LibrosPrestados"); // Creamos la serie
+            chartLibrosPrestados.Series["LibrosPrestados"].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Column;
         }
 
         private void btnAgregarLibro_Click(object sender, EventArgs e)
@@ -68,11 +84,16 @@ namespace BibliotecaApp
                 return;
             }
 
+           
             Libro libro = new Libro(contadorLibros++, txtTitulo.Text, txtAutor.Text, anio);
             biblioteca.AgregarLibro(libro);
 
+
+
             dgvLibros.Rows.Add(libro.Id, libro.Titulo, libro.Autor, libro.Anio, libro.Disponible);
             cmbLibros.Items.Add(libro.Titulo);
+
+
 
             txtTitulo.Clear();
             txtAutor.Clear();
@@ -89,7 +110,9 @@ namespace BibliotecaApp
 
             biblioteca.EliminarLibro(libro);
             dgvLibros.Rows.RemoveAt(index);
-            cmbLibros.Items.Remove(libro.Titulo);
+            cmbLibros.Items.Clear();
+            foreach (var l in biblioteca.Libros)
+                cmbLibros.Items.Add(l.Titulo);
         }
 
         // ACTUALIZAR LIBRO
@@ -143,7 +166,9 @@ namespace BibliotecaApp
 
             biblioteca.EliminarUsuario(usuario);
             dgvUsuarios.Rows.RemoveAt(index);
-            cmbUsuarios.Items.Remove(usuario.Nombre);
+            cmbUsuarios.Items.Clear();
+            foreach (var l in biblioteca.Usuarios)
+                cmbUsuarios.Items.Add(l.Nombre);
         }
 
         // ACTUALIZAR USUARIO
@@ -191,6 +216,8 @@ namespace BibliotecaApp
 
             dgvPrestamos.Rows.Add(prestamo.Id, libro.Titulo, usuario.Nombre, prestamo.FechaPrestamo, prestamo.Devuelto);
             cmbLibros.Items[cmbLibros.SelectedIndex] += " (Prestado)";
+
+            ActualizarGrafico();
         }
 
         // DEVOLVER LIBRO
@@ -208,6 +235,22 @@ namespace BibliotecaApp
 
             int libroIndex = biblioteca.Libros.IndexOf(prestamo.Libro);
             cmbLibros.Items[libroIndex] = prestamo.Libro.Titulo;
+
+            ActualizarGrafico();
+        }
+
+
+        private void ActualizarGrafico()
+        {
+            // Limpiamos los puntos de la serie
+            chartLibrosPrestados.Series["LibrosPrestados"].Points.Clear();
+
+            // Contamos cuántas veces se ha prestado cada libro
+            foreach (var libro in biblioteca.Libros)
+            {
+                int vecesPrestado = biblioteca.Prestamos.Count(p => p.Libro == libro);
+                chartLibrosPrestados.Series["LibrosPrestados"].Points.AddXY(libro.Titulo, vecesPrestado);
+            }
         }
 
     }
