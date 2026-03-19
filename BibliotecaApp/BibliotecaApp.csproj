@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Clases\Libro.cs" />
+    <Compile Include="Clases\Persona.cs" />
     <Compile Include="Clases\Prestamo.cs" />
     <Compile Include="Clases\Usuario.cs" />
     <Compile Include="Datos\Biblioteca.cs" />

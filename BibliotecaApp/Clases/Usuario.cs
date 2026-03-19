@@ -6,16 +6,15 @@ using System.Threading.Tasks;
 
 namespace BibliotecaApp.Clases
 {
-    public class Usuario
+    public class Usuario : Persona
     {
-        public int Id { get; set; }
-        public string Nombre { get; set; }
+    
         public string Email { get; set; }
 
         public Usuario(int id, string nombre, string email)
+            : base(id, nombre)
         {
-            Id = id;
-            Nombre = nombre;
+           
             Email = email;
         }
     }

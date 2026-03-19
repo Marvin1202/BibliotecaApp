@@ -19,15 +19,15 @@ namespace BibliotecaApp
         // Instancia de la "base de datos"
         Biblioteca biblioteca = new Biblioteca();
 
-        // Contadores para generar IDs únicos
+        // los contadores para generar id 
         int contadorLibros = 1;
         int contadorUsuarios = 1;
         int contadorPrestamos = 1;
 
         public Form1()
         {
-            InitializeComponent();   // Para inciar todo lo de la interfaz
-            InicializarGrids();      // Para iniciar lo de los dgv
+            InitializeComponent();   // esto me ayuda a iniciar la interfaz
+            InicializarGrids();      // este para iniciar los dgv
             InicializarGrafico();
         }
 
@@ -245,7 +245,7 @@ namespace BibliotecaApp
             // Limpiamos los puntos de la serie
             chartLibrosPrestados.Series["LibrosPrestados"].Points.Clear();
 
-            // Contamos cuántas veces se ha prestado cada libro
+            // esto me ayuda a saber cuantas veces se ha prestado el libro
             foreach (var libro in biblioteca.Libros)
             {
                 int vecesPrestado = biblioteca.Prestamos.Count(p => p.Libro == libro);

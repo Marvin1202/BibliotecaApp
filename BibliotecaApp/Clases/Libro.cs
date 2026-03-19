@@ -20,7 +20,7 @@ namespace BibliotecaApp.Clases
             Id = id;
             Titulo = titulo;
             Autor = autor;
-            Disponible = true; // al crearlo nos aparece como disponible 
+            Disponible = true; // esto me ayuda que al crearlo aparezca como disponible
             Anio = anio;    
         }
 
