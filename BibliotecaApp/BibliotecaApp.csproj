@@ -49,6 +49,7 @@
     <Compile Include="Clases\Libro.cs" />
     <Compile Include="Clases\Prestamo.cs" />
     <Compile Include="Clases\Usuario.cs" />
+    <Compile Include="Datos\Biblioteca.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,7 +81,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Datos\" />
     <Folder Include="Formularios\" />
     <Folder Include="Graficos\" />
   </ItemGroup>
